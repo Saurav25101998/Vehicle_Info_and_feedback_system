@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*-------- Code of nav bar goes from here --------*/
+#nav-list{
+    width: 100%;
+    height: 10vh;
+}
+.list-items{
+    height: 10vh;
+    width: 100;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* text-decoration: none; */
+    list-style-type: none;
+}
+.list-items li a{
+    text-decoration: none;
+    color: #404040;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+
+.list-items li a:hover{
+    border-bottom: 1px solid #404040;
+}
+
+/*-------- Code for feedback form goes from here --------*/
+
+#form-container {
+    width: 50%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+h2 {
+    text-align: center;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+label {
+    display: block;
+    font-weight: bold;
+}
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/*--------Code for hr goes from here--------*/
+
+hr{
+    margin-bottom: 10vh;
+    width: 100%;
+    color: whitesmoke;
+}

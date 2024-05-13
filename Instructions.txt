@@ -1,0 +1,6 @@
+1. download visual studio code
+2. make structure using html, css , javascript
+3. do form validation using javascrpt
+4. install xampp
+5. connect html forms data using mysql with xampp
+6. run a test to maintain ensurity
