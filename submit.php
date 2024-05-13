@@ -8,7 +8,10 @@ $dbname = "vims_db";
 $con = mysqli_connect($server, $username, $password, $dbname);
 
 if(!$con){
-    echo "Database not connected successfully.";
+    echo "not connected";
+}
+else{
+    echo "connected";
 }
 
 
@@ -24,15 +27,15 @@ $address   = $_POST['address'];
 
 // now for inserting data into database we need to write query
 
-$sql = "INSERT INTO `registration`(`name`, `email`, `password`, `age`, `contact`, `address`) VALUES ('$name','$email','$password','$age','$contact','$address')";
+$sql = "INSERT INTO `register`(`name`, `email`, `password`, `age`, `phone`, `address`) VALUES ('$name','$email','$password','$age','$contact','$address')";
 
 $result = mysqli_query($con, $sql);
 
 if($result){
     echo "Data submitted";
 }
-else{
-    echo "Query submission failed";
-}
+// else{
+//     echo "Query submission failed";
+// }
 
 ?>
