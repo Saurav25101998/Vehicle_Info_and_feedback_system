@@ -28,13 +28,14 @@ span{
     margin-bottom: 5%;
 }
 .left-query{
-    font-family: "Montserrat", sans-serif;
     margin-right: 10%;
     /* border: 1px solid black; */
-    /* word-spacing: 10px; */
-    /* letter-spacing: 5px; */
+    word-spacing: 5px;
+    letter-spacing: 5px;
 }
 .right-query{
+    height: 100%;
+    /* border: 1px solid black; */
     font-family: "Montserrat", sans-serif;
     margin-left: 10%;
     display: flex;
@@ -43,7 +44,13 @@ span{
     justify-content: center;
     /* border: 1px solid black; */
 }
+#name{
+    margin-bottom: 10px;
+    height: 10%;
+}
 #options{
+    margin-top: 5px;
+    margin-bottom: 10px;
     height: 15%;
     font-size: 01rem;
     width: 100%;
@@ -53,6 +60,8 @@ span{
     border-radius: 5px;
 }
 #email{
+    margin-top: 5px;
+    margin-bottom: 10px;
     width: 100%;
     border-radius: 5px;
     border: 1px solid #b3acac;
@@ -61,6 +70,7 @@ span{
 }
 
 button{
+    margin-bottom: 5px;
     font-size: medium;
     background-color: rgb(213, 219, 221);
     border: 1px solid blue;
@@ -75,4 +85,9 @@ button:hover{
     border-radius: 10px;
     margin: 10px 0px ;
     width: 100%;
+}
+
+.right-query input[type="text"], .right-query input[type="email"], .right-query textarea {
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
